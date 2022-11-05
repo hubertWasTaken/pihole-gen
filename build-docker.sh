@@ -9,3 +9,5 @@ pushd . > /dev/null
 cd pi-gen || exit 2
 
 ./build-docker.sh
+
+popd . > /dev/null

@@ -9,7 +9,7 @@ Um ein bootfähiges Image zu erzeugen wird das Tool [pi-gen](https://github.com/
 ## Installation
 Dieses Tool wurde mit **Debian 10 32 Bit** in QEMU/KVM getestet, da pi-gen Probleme beim Erzeugen von Images auf 64 Bit Systemen hat (siehe issue [#271](https://github.com/RPi-Distro/pi-gen/issues/271)).
 
-Um ein Image zu erzeugen ist weiters die installaton von weiteren Paketen notwendig:
+Um ein Image zu erzeugen ist weiters die installation von weiteren Paketen notwendig:
 ```
 apt-get install coreutils quilt parted qemu-user-static debootstrap zerofree zip \
 dosfstools libarchive-tools libcap2-bin grep rsync xz-utils file git curl bc \
@@ -27,7 +27,7 @@ Alternativ kann das Image auch mittles Docker erstellt werden `./prepare-and-bui
 
 Nach erfolgreicher Erstellung befindet sich das fertige Image in `pi-gen/deploy`.
 
-Weiter Informationen zum Pi-gen Tool sind auf der github-Seite von [pi-gen](https://github.com/RPi-Distro/pi-gen) zu finden.
+Weitere Informationen zum Pi-gen Tool sind auf der github-Seite von [pi-gen](https://github.com/RPi-Distro/pi-gen) zu finden.
 
 # Disclaimer
 This entire project is in no way affiliated with Pi-hole, which can be found at https://pi-hole.net
